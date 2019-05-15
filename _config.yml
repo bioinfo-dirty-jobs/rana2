@@ -7,12 +7,12 @@ permalink:           pretty
 title:               RNA-seq Analisys Course
 tagline:             Training on Rnaseq Data approach
 description:         NGS training
-url:                 'https://bioinfo-dirty-jobs.github.io/rana/'
+url:                 'https://bioinfo-dirty-jobs.github.io/rana2/'
 baseurl:             '/rana/'
 twitter_username:
 github_username:  bioinfo-dirty-jobs
-pages_url: https://bioinfo-dirty-jobs.github.io/rana
-github_url: https://bioinfo-dirty-jobs.github.io/rana
+pages_url: https://bioinfo-dirty-jobs.github.io/rana2
+github_url: https://bioinfo-dirty-jobs.github.io/rana2
 
 # Custom vars
 version:             4.0
