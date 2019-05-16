@@ -17,7 +17,26 @@ Unfortunately our computer not allow the work some stap was only for demonstrati
 
 
 
-In this example we will use a downsampled version of simulated Drosophila melanogaster RNA-seq data used by Trapnell et al. 2012. These include two conditions (C1 and C2), each containing three replicates (R1, R2, and R3) sequenced as a paired end library. Thus in total there are 12 fastq datasets.  Tutorial [https://galaxyproject.org/tutorials/rb_rnaseq/#lets-try-it] 
+In this example we will use a downsampled version of simulated Drosophila melanogaster RNA-seq data used by Trapnell et al. 2012. These include two conditions (C1 and C2), each containing three replicates (R1, R2, and R3) sequenced as a paired end library. Thus in total there are 12 fastq datasets.  
 
-Tutorial 2 The same example but using  STAR localy with snakemake
 
+
+[Galaxy version] (https://galaxyproject.org/tutorials/rb_rnaseq/#lets-try-it)
+
+
+Here we use  the snakemake  version of rna-seq pipeline with  STAR and  htseqcount and DESEq2:
+
+```
+
+		git clone https://github.com/bioinfo-dirty-jobs/rna-seq-star-deseq2
+
+		cd  rna-seq-star-deseq2
+
+		conda create -n rnaseq
+
+		conda activate rnaseq
+
+		conda install snakemake
+
+		
+```
